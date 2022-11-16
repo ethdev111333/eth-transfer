@@ -5,9 +5,8 @@ import requests
 from decimal import *
 
 web3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/460f40a260564ac4a4f4b3fffb032dad'))
-#web3 = Web3(Web3.HTTPProvider('https://bsc-dataseed.binance.org'))
 
-#connecting web3 to Ganache
+
 if  web3.isConnected() == True:
     print("web3 connected...\n")
 else :
